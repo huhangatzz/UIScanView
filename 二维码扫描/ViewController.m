@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HU_ScanViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    button.frame = CGRectMake(self.view.bounds.size.width / 2 - 40, 80, 80, 80);
+    button.layer.borderWidth = 1;
+    
+    [button setTitle:@"扫一扫" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+
+- (void)buttonAction{
+  
+    HU_ScanViewController *scanVC = [[HU_ScanViewController alloc]init];
+    [self.navigationController pushViewController:scanVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

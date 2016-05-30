@@ -10,10 +10,12 @@
 		456FA1031C08476900FF217C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 456FA1021C08476900FF217C /* main.m */; };
 		456FA1061C08476900FF217C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 456FA1051C08476900FF217C /* AppDelegate.m */; };
 		456FA1091C08476900FF217C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 456FA1081C08476900FF217C /* ViewController.m */; };
-		456FA10C1C08476900FF217C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456FA10A1C08476900FF217C /* Main.storyboard */; };
 		456FA10E1C08476900FF217C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456FA10D1C08476900FF217C /* Images.xcassets */; };
-		456FA1111C08476900FF217C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 456FA10F1C08476900FF217C /* LaunchScreen.xib */; };
 		456FA11D1C08476900FF217C /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 456FA11C1C08476900FF217C /* _____Tests.m */; };
+		456FA1291C08638400FF217C /* HU_ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 456FA1281C08638400FF217C /* HU_ScanViewController.m */; };
+		456FA12C1C08639500FF217C /* HU_ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 456FA12B1C08639500FF217C /* HU_ScanView.m */; };
+		457C4CA61CFC4677002939E8 /* UIView+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 457C4CA51CFC4677002939E8 /* UIView+BSExtension.m */; };
+		457C4CA81CFC4701002939E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457C4CA71CFC4701002939E8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,17 @@
 		456FA1051C08476900FF217C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		456FA1071C08476900FF217C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		456FA1081C08476900FF217C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		456FA10B1C08476900FF217C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		456FA10D1C08476900FF217C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		456FA1101C08476900FF217C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		456FA1161C08476900FF217C /* 二维码扫描Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "二维码扫描Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		456FA11B1C08476900FF217C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		456FA11C1C08476900FF217C /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		456FA1271C08638400FF217C /* HU_ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HU_ScanViewController.h; sourceTree = "<group>"; };
+		456FA1281C08638400FF217C /* HU_ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HU_ScanViewController.m; sourceTree = "<group>"; };
+		456FA12A1C08639500FF217C /* HU_ScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HU_ScanView.h; sourceTree = "<group>"; };
+		456FA12B1C08639500FF217C /* HU_ScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HU_ScanView.m; sourceTree = "<group>"; };
+		457C4CA41CFC4677002939E8 /* UIView+BSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BSExtension.h"; sourceTree = "<group>"; };
+		457C4CA51CFC4677002939E8 /* UIView+BSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSExtension.m"; sourceTree = "<group>"; };
+		457C4CA71CFC4701002939E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +92,9 @@
 				456FA1051C08476900FF217C /* AppDelegate.m */,
 				456FA1071C08476900FF217C /* ViewController.h */,
 				456FA1081C08476900FF217C /* ViewController.m */,
-				456FA10A1C08476900FF217C /* Main.storyboard */,
+				456FA1261C08636700FF217C /* 二维码扫描 */,
 				456FA10D1C08476900FF217C /* Images.xcassets */,
-				456FA10F1C08476900FF217C /* LaunchScreen.xib */,
+				457C4CA71CFC4701002939E8 /* LaunchScreen.storyboard */,
 				456FA1001C08476900FF217C /* Supporting Files */,
 			);
 			path = "二维码扫描";
@@ -117,6 +124,19 @@
 				456FA11B1C08476900FF217C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		456FA1261C08636700FF217C /* 二维码扫描 */ = {
+			isa = PBXGroup;
+			children = (
+				456FA1271C08638400FF217C /* HU_ScanViewController.h */,
+				456FA1281C08638400FF217C /* HU_ScanViewController.m */,
+				456FA12A1C08639500FF217C /* HU_ScanView.h */,
+				456FA12B1C08639500FF217C /* HU_ScanView.m */,
+				457C4CA41CFC4677002939E8 /* UIView+BSExtension.h */,
+				457C4CA51CFC4677002939E8 /* UIView+BSExtension.m */,
+			);
+			name = "二维码扫描";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +219,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				456FA10C1C08476900FF217C /* Main.storyboard in Resources */,
-				456FA1111C08476900FF217C /* LaunchScreen.xib in Resources */,
 				456FA10E1C08476900FF217C /* Images.xcassets in Resources */,
+				457C4CA81CFC4701002939E8 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +240,10 @@
 			files = (
 				456FA1091C08476900FF217C /* ViewController.m in Sources */,
 				456FA1061C08476900FF217C /* AppDelegate.m in Sources */,
+				456FA1291C08638400FF217C /* HU_ScanViewController.m in Sources */,
 				456FA1031C08476900FF217C /* main.m in Sources */,
+				456FA12C1C08639500FF217C /* HU_ScanView.m in Sources */,
+				457C4CA61CFC4677002939E8 /* UIView+BSExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +264,6 @@
 			targetProxy = 456FA1171C08476900FF217C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		456FA10A1C08476900FF217C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				456FA10B1C08476900FF217C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		456FA10F1C08476900FF217C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				456FA1101C08476900FF217C /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		456FA11E1C08476900FF217C /* Debug */ = {
@@ -347,7 +350,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "二维码扫描/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +362,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "二维码扫描/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +423,7 @@
 				456FA1221C08476900FF217C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		456FA1231C08476900FF217C /* Build configuration list for PBXNativeTarget "二维码扫描Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +432,7 @@
 				456FA1251C08476900FF217C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
